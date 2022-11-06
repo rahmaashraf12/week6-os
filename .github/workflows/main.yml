@@ -12,14 +12,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'after'
-        run: ls
+      - name: 'Testing Github action'
+        run: pwd
 
 
-      - uses: actions/checkout@v3 
+       
 
-      - name: "Login to Docker hub"
-        run: docker login --username ${{ secrets.DOCKER_USERNAME }} --password ${{ secrets.DOCKER_TOKEN }}
+      - name: "Testing Printing"
+        run: echo rahma 
 
     
 
