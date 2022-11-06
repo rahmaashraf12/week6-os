@@ -1,7 +1,7 @@
 on:
   push:
-  branches:
-    - r
+    branches:
+      - r
 
 
 
@@ -11,10 +11,6 @@ on:
       build:
       runs-on: ubuntu-latest
 
-
-
- 
- 
   steps: 
     - name: 'Printing folder contents'
       run:  ls
